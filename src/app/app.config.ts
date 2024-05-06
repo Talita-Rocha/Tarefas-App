@@ -14,7 +14,7 @@ export const appConfig: ApplicationConfig = {
     /*habilitando a biblioteca HttpClient*/
     provideHttpClient(),
 
-    /*habilitando a biblioteca de animações: ngx-Snipper*/
+    /*habilitando a biblioteca de animações: ngx-Spinner*/
     provideAnimations()
   ]
 }

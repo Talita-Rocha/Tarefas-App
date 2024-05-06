@@ -85,7 +85,9 @@ export class AutenticarUsuarioComponent {
         error: (e) => { //recebendo mensagem de erro
           this.mensagemErro = e.error.message;
         }
-      }).add(() => {
+      })
+      
+      .add(() => {
         this.spinnerService.hide();
       })
   }

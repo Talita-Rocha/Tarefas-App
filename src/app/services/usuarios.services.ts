@@ -15,11 +15,8 @@ import { environment } from "../../environments/environment";
 // Classe de serviço para realizar a integração com o ENDPOINT '/usuarios/' da API
 export class UsuariosService {
 
-    //variável do componente
-    apiUrl: string = environment.usuariosApi;
-
     //Método construtor para declarar e inicializar a biblioteca HttpClient
-    //Para consumir a injeção de dependência da classe HttpClient
+    //Através do consumo da sua injeção de dependência.
     constructor(
         private httpClient: HttpClient
     ) {
